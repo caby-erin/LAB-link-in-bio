@@ -1,3 +1,38 @@
 body{
   background-color: brown;
 }
+
+.container{
+  background-color:grey;
+  width: 100px;
+  height: 600px;
+}
+.profile-photo{
+  max-width: 150px;
+  height: auto;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.d-grid{
+  margin: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color:coral;
+  color: white;
+  font-size:large;
+}
+
+.header{
+  text-align: center;
+  margin-top:10px;
+}
+
+.button{
+  color:aliceblue;
+  font-size: large;
+}
