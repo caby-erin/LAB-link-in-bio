@@ -4,7 +4,7 @@ body{
 
 .container{
   background-color:grey;
-  width: 100px;
+  width: 75px;
   height: 600px;
 }
 .profile-photo{
@@ -14,17 +14,18 @@ body{
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border: 1px black solid;
+  border-radius: 50%;
 }
 
 .d-grid{
+
   margin: 20px;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  background-color:coral;
-  color: white;
-  font-size:large;
+  background-color:black;
+  
 }
 
 .header{
@@ -32,7 +33,44 @@ body{
   margin-top:10px;
 }
 
+/*
 .button{
-  color:aliceblue;
-  font-size: large;
+  margin: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color:black;
+  color: white;
+  font-size: x-large;
 }
+*/
+
+.profile-buttons{
+  font-size: medium;
+  color: white;
+  background-color: black;
+}
+
+.linkedin{
+  width: 40px;
+  height: auto;
+}
+
+.twitter{
+  width: 40px;
+  height: auto;
+}
+
+.facebook{
+  width: 40px;
+  height: auto;
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 40%;
+  margin-right: 40%;
+  }
